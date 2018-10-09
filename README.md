@@ -1,0 +1,2 @@
+# MyConf
+Conf bashrc + dwm 
