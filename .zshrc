@@ -119,7 +119,9 @@ alias fr='setxkbmap fr'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-
+alias irc='hexchat'
+alias wificonnect='nmcli dev wifi connect' # + wifiname + password <password>
+alias pushtogit="/root/script/pushtogit.sh"
 #Activer l'historique des commandes:
 HISTFILE=~/.history
 HISTSIZE=1000
