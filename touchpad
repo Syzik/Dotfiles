@@ -1,0 +1,1 @@
+modprobe -r psmouse && modprobe psmouse proto=imps
