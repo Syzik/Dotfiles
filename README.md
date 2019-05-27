@@ -20,6 +20,7 @@ cp .bashrc ~/
 ```sh 
 cp config.h ~/
 ```
+
 ## Tmux
 ```sh 
 cp -r .tmux* ~/
