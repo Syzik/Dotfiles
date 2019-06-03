@@ -25,3 +25,8 @@ cp config.h ~/
 ```sh 
 cp -r .tmux* ~/
 ```
+
+## Emacs
+```sh 
+cp -r .emacs* ~/
+```
