@@ -6,6 +6,7 @@
  * Conf dwm -> config.h (key set azerty + windows key)
  * Touchpad 
  * Tmux
+ * Emacs -> config with evil mode (vim keys) 
 
 ## Zsh 
 ```sh 
