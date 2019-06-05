@@ -1,0 +1,8 @@
+pane	blabla	1	:zsh	0	:	1	:/root	0	zsh	:
+pane	blabla	1	:zsh	0	:	2	:/root	1	zsh	:
+pane	blabla	2	:aaaaaaaaaaaaaaa	1	:*	1	:/root	1	zsh	:
+pane	blabla	3	:salut	0	:-	1	:/root	1	zsh	:
+window	blabla	1	0	:	1fd1,206x55,0,0{103x55,0,0,0,102x55,104,0,6}
+window	blabla	2	1	:*	c3a6,206x55,0,0,9
+window	blabla	3	0	:-	61ff,206x55,0,0,10
+state	blabla	
