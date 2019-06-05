@@ -24,6 +24,9 @@ cp config.h ~/
 
 ## Tmux
 ```sh 
+cd Dotfiles
+git submodule init
+git submodule update
 cp -r .tmux* ~/
 ```
 
