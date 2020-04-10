@@ -1,0 +1,76 @@
+[global_config]
+  handle_size = 20
+  extra_styling = False
+  scroll_tabbar = True
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+[keybindings]
+  zoom_in = <Primary><Shift>plus
+  zoom_out = <Alt>Tab
+  zoom_normal = <Ctrl>0
+  new_tab = <Primary><Alt>c
+  cycle_next = Disable
+  cycle_prev = Disable
+  go_next = <Ctrl>N
+  go_prev = <Ctrl>B
+  go_up = <Primary>Up
+  go_down = <Primary>Down
+  go_left = <Primary>Left
+  go_right = <Primary>Right
+  rotate_cw = Disable
+  rotate_ccw = Disable
+  split_horiz = <Primary>apostrophe
+  split_vert = <Primary>ugrave
+  close_term = <Primary>x
+  copy = <Ctrl><Shift>C
+  paste = <Ctrl><Shift>V
+  toggle_scrollbar = Disable
+  search = <Shift>slash
+  close_window = <Primary>ampersand
+  resize_up = <Ctrl><Shift>Up
+  resize_down = <Ctrl><Shift>Down
+  resize_left = <Ctrl><Shift>Left
+  resize_right = <Ctrl><Shift>Right
+  move_tab_right = <Alt>Right
+  move_tab_left = <Alt>Left
+  toggle_zoom = Disable
+  scaled_zoom = Disable
+  next_tab = <Ctrl>N
+  prev_tab = <Ctrl>B
+  switch_to_tab_1 = <Alt>ampersand
+  switch_to_tab_2 = <Alt>eacute
+  switch_to_tab_3 = <Alt>quotedbl
+  switch_to_tab_4 = <Alt>apostrophe
+  switch_to_tab_5 = <Alt>parenleft
+  switch_to_tab_6 = <Alt>minus
+  switch_to_tab_7 = <Alt>egrave
+  switch_to_tab_8 = <Alt>underscore
+  switch_to_tab_9 = <Alt>ccedilla
+  switch_to_tab_10 = Disable
+  reset = Disable
+  reset_clear = Disable
+  hide_window = Disable
+  group_all = <Ctrl><Shift>G
+  ungroup_all = <Ctrl><Shift>U
+  group_tab = <Ctrl>G
+  ungroup_tab = <Primary>u
+  new_window = <Primary>w
+  new_terminator = <Primary>t
+[profiles]
+  [[default]]
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#d48703"
+    scrollbar_position = hidden
+    scrollback_lines = 90000
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
