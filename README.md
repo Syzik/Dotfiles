@@ -34,3 +34,8 @@ cp -r .tmux* ~/
 ```sh 
 cp -r .emacs* ~/
 ```
+
+## Terminator
+```sh
+cp -r /.config/terminator/ ~/.config
+```
